@@ -1,0 +1,13 @@
+<%= simple_form_for(flat) do |f| %>
+  <%= f.input :name, wrapper_html: {class: "mt-3"} %>
+  <%= f.input :address, wrapper_html: {class: "mt-3"} %>
+  <%= f.input :picture_url, wrapper_html: {class: "mt-3"} %>
+  <%= f.input :description, wrapper_html: {class: "mt-3"} %>
+  <%= f.input :number_of_guests, wrapper_html: {class: "mt-3"} %>
+  <%= f.input :price_per_night, wrapper_html: {class: "mt-3"} %>
+
+  <div class="mt-3">
+    <%= f.submit class: "btn btn-primary" %>
+    <%= link_to "Annuler", "#", class: "btn btn-danger ms-2" %>
+  </div>
+<% end %>
