@@ -1,0 +1,24 @@
+.body {
+  background: rgb(203, 202, 202) !important;
+}
+
+.card {
+  background: #222;
+  border: 1px solid #dd2476;
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border: 5px solid;
+  color: #dd2476;
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.btn:hover, .btn:focus {
+  border: 5px solid #fff !important;
+  box-shadow: rgb(124, 123, 123) 1px 0 10px;
+  text-decoration: underline;
+}
+
