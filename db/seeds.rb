@@ -27,8 +27,26 @@ Flat.create!(
 Flat.create!(
   name: 'Appartement Tour Eiffel',
   address: 'Champ de Mars, 5 Av. Anatole France, 75007 Paris',
-  description: 'a tour Eiffel est une tour de fer puddlé de 330 m de hauteur située à Paris, à l’extrémité nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7ᵉ arrondissement.',
+  description: 'la tour Eiffel est une tour de fer puddlé de 330 m de hauteur située à Paris, à l’extrémité nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7ᵉ arrondissement.',
   price_per_night: 200,
   number_of_guests: 2,
+  picture_url: 'https://images.unsplash.com/photo-1494526585095-c41746248156?w=1200'
+)
+
+Flat.create!(
+  name: 'Appart près de Paris',
+  address: '84 avenue du Général Leclerc, 93500 Pantin',
+  description: 'Le maire de Pantin se nomme Monsieur Bertrand KERN pour un mandat de 6 ans (2020-2026) Agé de 59 ans Bertrand KERN a pour profession',
+  price_per_night: 100,
+  number_of_guests: 1,
+  picture_url: 'https://images.unsplash.com/photo-1494526585095-c41746248156?w=1200'
+)
+
+Flat.create!(
+  name: 'Appartement à Boulogne',
+  address: '26 Av. André Morizet, 92100 Boulogne-Billancourt',
+  description: 'Lhôtel de ville de Boulogne-Billancourt est un édifice situé à Boulogne-Billancourt, en France.',
+  price_per_night: 100,
+  number_of_guests: 1,
   picture_url: 'https://images.unsplash.com/photo-1494526585095-c41746248156?w=1200'
 )
